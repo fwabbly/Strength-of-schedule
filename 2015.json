@@ -1,0 +1,24 @@
+{
+  "team_scores" : {
+    "phil"     : [ 74.14,  81.06, 149.14,  89.28, 106.24, 114.14, 103.10, 121.46, 125.54,  84.28,  54.16,  89.04,  63.84, 106.60],
+    "doug"     : [ 75.10,  99.86,  95.46,  71.42,  88.94, 102.52, 159.44, 153.74,  75.70, 103.56,  62.72, 101.00,  92.50, 131.22],
+    "tubb"     : [ 90.74,  85.24, 124.60, 112.58,  74.44, 105.06, 115.00,  88.14,  92.56,  74.58,  62.08,  90.04, 110.34,  56.36],
+    "gav"      : [120.72,  84.90,  83.70,  98.04, 117.30, 115.54, 139.62,  89.88, 128.04,  91.82,  57.78,  78.16, 104.38, 105.50],
+    "pete"     : [117.76,  82.06, 150.22,  88.26, 106.74,  94.90,  96.98,  69.58, 113.26, 106.02,  80.28, 120.28,  85.82, 112.68],
+    "marcus"   : [115.22,  71.00,  55.72,  84.16, 113.30, 132.38, 122.70,  88.84, 119.96, 109.96, 134.48, 145.20, 129.58, 112.18],
+    "saunders" : [ 82.00,  92.20, 130.60,  85.94,  92.36,  88.00,  50.94, 114.88,  95.72,  54.06,  84.50,  65.62,  86.58,  73.68],
+    "roey"     : [104.14, 134.56, 126.58,  59.76,  93.04,  99.52, 102.38, 107.40,  98.36,  96.78, 104.04,  81.62, 150.14,  86.90]
+  },
+
+  "schedule" : {
+    "phil"     : ["pete", "roey", "saunders", "tubb", "doug", "gav", "marcus", "gav", "tubb", "marcus", "roey", "doug", "pete", "saunders"],
+    "doug"     : ["gav", "marcus", "tubb", "roey", "phil", "saunders", "pete", "pete", "saunders", "roey", "marcus", "phil", "gav", "tubb"],
+    "tubb"     : ["saunders", "pete", "doug", "phil", "marcus", "roey", "gav", "marcus", "phil", "pete", "gav", "saunders", "roey", "doug"],
+    "gav"      : ["doug", "saunders", "marcus", "pete", "roey", "phil", "tubb", "phil", "roey", "saunders", "tubb", "marcus", "doug", "pete"],
+    "pete"     : ["phil", "tubb", "roey", "gav", "saunders", "marcus", "doug", "doug", "marcus", "tubb", "saunders", "roey", "phil", "gav"],
+    "marcus"   : ["roey", "doug", "gav", "saunders", "tubb", "pete", "phil", "tubb", "pete", "phil", "doug", "gav", "saunders", "roey"],
+    "saunders" : ["tubb", "gav", "phil", "marcus", "pete", "doug", "roey", "roey", "doug", "gav", "pete", "tubb", "marcus", "phil"],
+    "roey"     : ["marcus", "phil", "pete", "doug", "gav", "tubb", "saunders", "saunders", "gav", "doug", "phil", "pete", "tubb", "marcus"]
+  }
+
+}
