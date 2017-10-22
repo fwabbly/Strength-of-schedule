@@ -9,35 +9,35 @@
  *
  */
 
-var data = require("./2016.json");
+var data = require("./2017.json");
 
 var team_scores = data.team_scores;
 var schedule = data.schedule;
 
 var ownerPossibilities = {
     "phil" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "doug" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "tubb" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "gav" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "pete" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "marcus" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "saunders" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     },
     "roey" : {
-        "Playing other people's schedule" : {}
+        "Playing each schedule" : {}
     }
 };
 
@@ -95,11 +95,11 @@ for (var ownerName in team_scores) {
                 //if (scheduleKey === ownerName) {
                 //    scheduleKey = 'Actual outcome';
                 //}
-                ownerPossibilities[ownerName]["Playing other people's schedule"][scheduleKey] = winCount;
+                ownerPossibilities[ownerName]["Playing each schedule"][scheduleKey] = winCount;
             }
         }
-        ownerPossibilities[ownerName]["Playing other people's schedule"]["Best outcome"] = highMark + " playing the schedule of " + JSON.stringify(highName);
-        ownerPossibilities[ownerName]["Playing other people's schedule"]["Worst outcome"] = lowMark + " playing the schedule of " + JSON.stringify(lowName);
+        ownerPossibilities[ownerName]["Playing each schedule"]["Best outcome"] = highMark + " playing the schedule of " + JSON.stringify(highName);
+        ownerPossibilities[ownerName]["Playing each schedule"]["Worst outcome"] = lowMark + " playing the schedule of " + JSON.stringify(lowName);
     }
 }
 
@@ -117,7 +117,7 @@ for (var ownerName in team_scores) {
 
         for (var ownerNameInternal in team_scores) {
             if (team_scores.hasOwnProperty(ownerNameInternal)) {
-                var winCount = ownerPossibilities[ownerNameInternal]["Playing other people's schedule"][ownerName];
+                var winCount = ownerPossibilities[ownerNameInternal]["Playing each schedule"][ownerName];
 
                 // Track high water mark for summary
                 if (winCount > highMark) {

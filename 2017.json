@@ -1,0 +1,25 @@
+{
+  "team_scores" : {
+    "phil"     : [121.44,  94.10,  82.12,  82.44, 125.64, 123.70],
+    "doug"     : [ 67.22,  81.52, 100.20,  74.24,  86.68, 111.14],
+    "tubb"     : [ 68.34,  83.38,  73.86,  69.68, 105.24,  77.82],
+    "gav"      : [117.94, 113.52,  83.22, 116.56, 103.24,  67.62],
+    "pete"     : [ 85.98,  90.58, 130.52, 100.88,  70.12, 146.18],
+    "marcus"   : [ 78.32, 106.62,  78.38, 122.40,  61.02,  88.48],
+    "saunders" : [ 80.84,  68.64,  86.50,  82.42,  73.42, 101.94],
+    "roey"     : [ 79.70,  76.06,  88.00, 111.20, 101.46, 107.74]
+  },
+
+  "schedule" : {
+    "phil"     : ["tubb", "gav", "saunders", "roey", "marcus", "pete", "doug", "tubb", "gav", "marcus", "doug", "roey", "pete", "saunders"],
+    "doug"     : ["saunders", "pete", "roey", "tubb", "gav", "marcus", "phil", "pete", "saunders", "roey", "phil", "tubb", "marcus", "gav"],
+    "tubb"     : ["phil", "marcus", "gav", "doug", "roey", "saunders", "pete", "phil", "marcus", "gav", "saunders", "doug", "roey", "pete"],
+    "gav"      : ["marcus", "phil", "tubb", "pete", "doug", "roey", "saunders", "marcus", "phil", "tubb", "roey", "pete", "saunders", "doug"],
+    "pete"     : ["roey", "doug", "marcus", "gav", "saunders", "phil", "tubb", "doug", "roey", "saunders", "marcus", "gav", "phil", "tubb"],
+    "marcus"   : ["gav", "tubb", "pete", "saunders", "phil", "doug", "roey", "gav", "tubb", "phil", "pete", "saunders", "doug", "roey"],
+    "saunders" : ["doug", "roey", "phil", "marcus", "pete", "tubb", "gav", "roey", "doug", "pete", "tubb", "marcus", "gav", "phil"],
+    "roey"     : ["pete", "saunders", "doug", "phil", "tubb", "gav", "marcus", "saunders", "pete", "doug", "gav", "phil", "tubb", "marcus"]
+  }
+
+}
+
